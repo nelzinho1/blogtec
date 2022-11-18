@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos - Neltech</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="scripts.js" defer></script>
+    <script src="scripts1.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+   
+   
+</head>
+<body>
+    <div class="area-cabecalho" id="area-cabecalho">
+			
+        <div id="area-logo">
+            
+            <h1>Blog<span class="branco">Tec</span></h1><br>
+             <div class="text-1">Ola, meu nome é Emanuel Souza e eu sou <span  class="typing"></span></div><br>
+        </div>
+
+        <div id="area-menu">
+            <a href="index.html"> Home</a>
+            <a href="celulares.html"> Celulares</a>
+            <a href="Informatica.html"> Informática</a>
+            <a href="eletronicos.html"> Eletrônicos</a>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div style="color: white;"  class="text-2">O que veremos no BlogTec - Jogos :  <span class="typing-3"></span></div><br>
+</div>
+
+    
+    <div id="area-principal">
+        
+        
+        <div id="area-postagens">
+                
+                <div id="box" class="postagem">
+                    <h2>Título da Postagem 1</h2>
+                    <span class="data-postagem">Postado em 16 de Novembro 2022</span>
+                    <img id="box" class="img" alt="call" width="620px" src="https://s2.glbimg.com/jBWRLpzFfnoaaDUgIUMJTTORCyM=/0x0:896x505/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/T/a/A0BpXZRG2ERko5MF8gJw/captura-de-tela-2019-03-19-as-13.56.29.png">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <a href="">Leia mais</a>
+                    
+
+                </div>
+                
+
+
+                <div id="box" class="postagem">
+                    <h2>Título da Postagem 2</h2>
+                    <span class="data-postagem">Postado em 16 de Novembro 2022</span>
+                    <img id="box" class="img" alt="gamer" width="620px" src="https://static8.depositphotos.com/1311503/875/i/450/depositphotos_8758735-stock-photo-gamer-and-controller.jpg">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <a href="">Leia mais</a>
+
+                </div>
+
+    </div>
+
+
+        <div id="area-lateral">
+            
+            <div class="conteudo-lateral">
+                <h3>Postagens recentes</h3>
+
+                <div class="postagem-lateral" >
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="#">Leia mais</a>
+                </div>
+
+                <div class="postagem-lateral" style="border-bottom: none;" >
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="#">Leia mais</a>
+                </div>
+
+            </div>
+
+            <div class="conteudo-lateral">
+                <h3>Categorias</h3>
+
+                <a href="index.html">Home</a><br>
+				<a href="celulares.html">Celulares</a><br>
+				<a href="Informatica.html">Informática</a><br>
+				<a href="eletronicos.html">Eletrônicos</a><br>
+                <div class="bt"><br>
+
+            <strong>
+                <i>Se quiser vizualizar somente imagens clique em esconder!
+                </i>
+            </strong>	
+            <br>
+            <br>
+                
+                    <button style="cursor: pointer;" id="hide">esconder</button>
+                    <button style="cursor: pointer;"id="show">mostrar</button>
+                    <script>
+                         $(document).ready(function(){
+        $("#hide").click(function(){
+          $("p").hide();
+        });
+        $("#show").click(function(){
+          $("p").show();
+        });
+      });
+    
+      $(document).ready(function(){
+        $("#bt").click(function(){
+          $("#div1").fadeIn(1000);
+          $("#div2").fadeIn(1000);
+          $("#div3").fadeIn(1000);
+      });
+      });
+      
+          $(document).ready(function(){
+          $(".hide1").click(function(){
+              $("#div3").hide(500);
+              $("#div2").hide(500);
+              $("#div1").hide(500);
+            });
+          });
+                    </script>
+    
+                </div>
+
+            
+            </div>
+        </div> 
+          
+         
+        <div id="rodape">
+        Todos os Direitos Reservados @Neltech
+        </div>
+    
+</body>
+</html>
