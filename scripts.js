@@ -1,5 +1,3 @@
-/* zoom img */
-
 /*Barra de navbar*/
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
@@ -82,8 +80,7 @@ showText(el, text, interval);
             });
           });
           
-
-
+         
           
 
     
